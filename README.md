@@ -26,9 +26,9 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 * _Example Input: 15_
 * _Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]_
 
-##### Program does not duplicate previously entered count.
-* _Example Input: 5_
-* _Example Output: [1, 2, ping, 4, pong]_
+##### Program does not duplicate previously entered count. PASSED
+* _Example Input: 2, 5_
+* _Example Output: [1, 2], [1, 2, ping, 4, pong]_
 
 ## Setup/Installation Requirements
 

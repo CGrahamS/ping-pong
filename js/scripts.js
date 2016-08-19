@@ -26,5 +26,6 @@ $(function() {
     results.forEach(function(result) {
       $("#output ul").append("<li>" + result + "</li>")
     });
+    numbersTo = [];
   });
 });
