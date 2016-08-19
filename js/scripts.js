@@ -4,7 +4,9 @@ var numbersTo = [];
 var pingPong = function(inputNumber) {
   for (var total = 1; total <= inputNumber; total += 1) {
     console.log(total);
-    if (total % 3 === 0) {
+    if ((total % 3 === 0) && (total % 5 === 0)) {
+      numbersTo.push(pingPongArray[2]);
+    } else if (total % 3 === 0) {
       numbersTo.push(pingPongArray[0]);
     } else if (total % 5 === 0) {
       numbersTo.push(pingPongArray[1]);
