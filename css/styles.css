@@ -1,3 +1,7 @@
+/*************
+CLASSIC STLYES
+**************/
+
 body,
 #ping-pong {
   background-color: #E6E6E6;
@@ -36,6 +40,15 @@ h1 {
   color: #FFF;
 }
 
+#left-sidebar button {
+  width: 60%;
+  margin: .5em 0;
+}
+
+#style-morpher {
+  margin-top: 20px;
+}
+
 #ping-pong {
   padding-top: 50px;
   padding-left: 50px;
@@ -45,4 +58,52 @@ h1 {
 
 #ping-pong ol li {
   padding: 0.25em 0;
+}
+
+/***************
+OLDE TIME STYLES
+****************/
+
+.olde-time,
+.olde-time #ping-pong {
+  background-color: #F1F1D4;
+}
+
+.olde-time #my-header {
+  background-color: #900;
+}
+
+.olde-time #left-sidebar {
+  background-color: lightgrey;
+}
+
+.olde-time #left-sidebar h4 {
+  color: #000F55;
+}
+
+.olde-time #left-sidebar h5 {
+  color: #900;
+}
+
+.olde-time,
+.olde-time h5,
+.olde-time #left-sidebar h5 {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 18px;
+}
+
+.olde-time h1,
+.olde-time h2,
+.olde-time h4,
+.olde-time button {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 15px;
+}
+
+.olde-time h1 {
+  font-size: 60px;
+}
+
+.olde-time h2 {
+  font-size: 25px;
 }

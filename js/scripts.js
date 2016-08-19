@@ -29,4 +29,10 @@ $(function() {
     });
     numbersTo = [];
   });
+  $("button#classic").click(function() {
+    $("body").removeClass();
+  })
+  $("button#olde-time").click(function() {
+    $("body").addClass("olde-time");
+  });
 });
