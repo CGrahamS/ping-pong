@@ -35,10 +35,12 @@ h1 {
 
 #left-sidebar h4 {
   color: #F6DEB8;
+  padding: 1% 0;
 }
 
 #left-sidebar h5 {
   color: #FFF;
+  padding: 1% 0;
 }
 
 #left-sidebar button {
