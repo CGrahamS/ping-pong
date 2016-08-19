@@ -1,11 +1,48 @@
-body {
+body,
+#ping-pong {
   background-color: #E6E6E6;
 }
 
 #my-header {
-  min-height: 
+  min-height: 150px;
+  padding-top: 15px;
+  text-align: center;
+  background-color: #F6DEB8;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+#left-sidebar,
+#ping-pong {
+  text-align: left;
+  height: 100%;
 }
 
 #left-sidebar {
-  display: none;
+  margin-top: 40px;
+  padding-left: 30px;
+  background-color: #8CBC93;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+}
+
+#left-sidebar h4 {
+  color: #F6DEB8;
+}
+
+#left-sidebar h5 {
+  color: #FFF;
+}
+
+#ping-pong {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 925px;
+  margin-bottom: -925px;
+}
+
+#ping-pong ol li {
+  padding: 0.25em 0;
 }

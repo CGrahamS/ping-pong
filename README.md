@@ -30,7 +30,7 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 * _Example Input: 2, 5_
 * _Example Output: [1, 2], [1, 2, 1, 2, ping, 4, pong]_
 
-###### 6. Program only shows results for most recent number entered.
+###### 6. Program only shows results for most recent number entered. PASSED
 * _Example Input: 2, 5_
 * _Example Output: [1, 2], [1, 2, ping, 4, pong]_
 
