@@ -26,7 +26,11 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 * _Example Input: 15_
 * _Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]_
 
-##### 5. Program does not duplicate previous count on new form submission. PASSED
+###### 5. Program does not duplicate previous count when a new number is entered. PASSED
+* _Example Input: 2, 5_
+* _Example Output: [1, 2], [1, 2, 1, 2, ping, 4, pong]_
+
+###### 6. Program only shows results for most recent number entered.
 * _Example Input: 2, 5_
 * _Example Output: [1, 2], [1, 2, ping, 4, pong]_
 

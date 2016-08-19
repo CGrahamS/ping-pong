@@ -11,7 +11,7 @@ var pingPong = function(inputNumber) {
     } else if (total % 5 === 0) {
       numbersTo.push(pingPongArray[1]);
     } else {
-        numbersTo.push(total);
+      numbersTo.push(total);
     }
   }
   return numbersTo;
@@ -23,6 +23,7 @@ $(function() {
     event.preventDefault();
     var userInput = parseInt($("input#number").val());
     var results = pingPong(userInput);
+    $("#output ul").empty();
     results.forEach(function(result) {
       $("#output ul").append("<li>" + result + "</li>")
     });
