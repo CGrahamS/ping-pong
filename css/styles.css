@@ -59,6 +59,12 @@ h1 {
   margin-bottom: -925px;
 }
 
+.alert {
+  display: none;
+  max-width: 35%;
+  text-align: center;
+}
+
 #ping-pong ol li {
   padding: 0.25em 0;
 }
@@ -126,6 +132,7 @@ OLDE TIME STYLES
 
 .seventies #left-sidebar {
   background-color: #551A8B;
+  border-radius: 40px;
 }
 
 .seventies #left-sidebar h4 {
