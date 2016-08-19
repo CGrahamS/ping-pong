@@ -10,23 +10,23 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 
 ## Specifications
 
-###### Program can count to user specified number. PASSED
+###### 1. Program can count to user specified number. PASSED
 * _Example Input: 2_
 * _Example Output: [1, 2]_
 
-###### Program can substitute numbers divisible by 3 with "ping". PASSED
+###### 2. Program can substitute numbers divisible by 3 with "ping". PASSED
 * _Example Input: 3_
 * _Example Output: [1, 2, ping]_
 
-###### Program can substitute numbers divisible by 5 with "pong". PASSED
+###### 3. Program can substitute numbers divisible by 5 with "pong". PASSED
 * _Example Input: 5_
 * _Example Output: [1, 2, ping, 4, pong]_
 
-###### Program can substitute number divisible by 3 and 5 with "ping-pong". PASSED
+###### 4. Program can substitute number divisible by 3 and 5 with "ping-pong". PASSED
 * _Example Input: 15_
 * _Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]_
 
-##### Program does not duplicate previously entered count. PASSED
+##### 5. Program does not duplicate previous count on new form submission. PASSED
 * _Example Input: 2, 5_
 * _Example Output: [1, 2], [1, 2, ping, 4, pong]_
 
