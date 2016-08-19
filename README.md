@@ -1,12 +1,34 @@
-# _{Application Name}_
+# _Ping Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A webpage that takes an input number from the user and counts to that number, returning ping, pong or pin-pong for certain numbers, 8-19-16_
 
 #### By _**Caleb Stevenson**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input number, count to that number, substitute ping for any number divisible by 3, substitute pong for any number divisible by 5 and substitute ping-pong for any number divisible by both 3 and 5._
+
+## Specifications
+
+###### Program can count to user specified number.
+* _Example Input: 2_
+* _Example Output: [1, 2]_
+
+###### Program can substitute numbers divisible by 3 with "ping".
+* _Example Input: 3_
+* _Example Output: ping_
+
+###### Program can substitute numbers divisible by 5 with "pong".
+* _Example Input: 5_
+* _Example Output: pong_
+
+###### Program can substitute number divisible by 3 and 5 with "ping-pong".
+* _Example Input: 15_
+* _Example Output: ping-pong_
+
+##### Program does not duplicate previously entered count.
+* _Example Input: 5_
+* _Example Output: [1, 2, 3, 4, 5]_
 
 ## Setup/Installation Requirements
 
@@ -27,7 +49,8 @@ _None_
 
 _HTML,
 CSS,
-JS,_
+JS,
+jQuery_
 
 ### License
 
