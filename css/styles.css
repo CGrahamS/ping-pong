@@ -25,7 +25,8 @@ h1 {
 }
 
 #left-sidebar {
-  margin-top: 40px;
+  margin-top: 3%;
+  padding-top: 1%;
   padding-left: 30px;
   background-color: #8CBC93;
   padding-bottom: 1000px;
@@ -78,7 +79,7 @@ OLDE TIME STYLES
 }
 
 .olde-time #left-sidebar h4 {
-  color: #000F55;
+  color: black;
 }
 
 .olde-time #left-sidebar h5 {
@@ -89,7 +90,7 @@ OLDE TIME STYLES
 .olde-time h5,
 .olde-time #left-sidebar h5 {
   font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .olde-time h1,
@@ -97,7 +98,7 @@ OLDE TIME STYLES
 .olde-time h4,
 .olde-time button {
   font-family: 'Uncial Antiqua', cursive;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .olde-time h1 {
@@ -106,4 +107,63 @@ OLDE TIME STYLES
 
 .olde-time h2 {
   font-size: 25px;
+}
+
+/**********
+70'S STYLES
+***********/
+
+.seventies,
+.seventies #ping-pong {
+  background-color: darkgrey;
+}
+
+.seventies #my-header {
+  background-color: #551A8B;
+}
+
+.seventies #left-sidebar {
+  background-color: #551A8B;
+}
+
+.seventies #left-sidebar h4 {
+  color: black;
+}
+
+.seventies #left-sidebar h5 {
+  color: black;
+}
+
+.seventies,
+.seventies h5,
+.seventies #left-sidebar h5 {
+  font-family: 'Farsan', cursive;
+  font-size: 17px;
+}
+
+.seventies button {
+  color: #FFDF00;
+  background-color: #551A8B;
+}
+
+.seventies #left-sidebar button {
+    background-color: darkgrey;
+}
+
+.seventies h1,
+.seventies h2,
+.seventies h4,
+.seventies button {
+  font-family: 'Monoton', cursive;
+  font-size: 14px;
+}
+
+.seventies h1 {
+  font-size: 60px;
+  color: #FFDF00;
+}
+
+.seventies h2 {
+  font-size: 25px;
+  color: #FFDF00;
 }

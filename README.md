@@ -40,7 +40,8 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 * _Open index.html in the browser of your choosing_
 
 _You must host this webpage locally_
-
+_OR_
+_You can press this: [Ping Pong](https://cgrahams.github.io/ping-pong/index.html)_
 ## Known Bugs
 
 _None_

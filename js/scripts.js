@@ -33,6 +33,11 @@ $(function() {
     $("body").removeClass();
   })
   $("button#olde-time").click(function() {
+    $("body").removeClass();
     $("body").addClass("olde-time");
+  });
+  $("button#seventies").click(function() {
+    $("body").removeClass();
+    $("body").addClass("seventies");
   });
 });
