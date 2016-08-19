@@ -14,11 +14,11 @@ _This webpage will utilize HTML, CSS, JavaScript and jQuery to receive an input 
 * _Example Input: 2_
 * _Example Output: [1, 2]_
 
-###### Program can substitute numbers divisible by 3 with "ping".
+###### Program can substitute numbers divisible by 3 with "ping". PASSED
 * _Example Input: 3_
 * _Example Output: [1, 2, ping]_
 
-###### Program can substitute numbers divisible by 5 with "pong".
+###### Program can substitute numbers divisible by 5 with "pong". PASSED
 * _Example Input: 5_
 * _Example Output: [1, 2, ping, 4, pong]_
 

@@ -6,6 +6,8 @@ var pingPong = function(inputNumber) {
     console.log(total);
     if (total % 3 === 0) {
       numbersTo.push(pingPongArray[0]);
+    } else if (total % 5 === 0) {
+      numbersTo.push(pingPongArray[1]);
     } else {
         numbersTo.push(total);
     }
